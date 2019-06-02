@@ -16,6 +16,8 @@ yarn add @jomaxx/create-loader react
 
 ## Usage
 
+https://codesandbox.io/s/wispy-architecture-c7f4w
+
 ```jsx
 import React from "react";
 import ReactDOM from "react-dom";
