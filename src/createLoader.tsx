@@ -17,7 +17,7 @@ export function createLoader<Deps, Data>(
 ) {
   const Context = React.createContext<Record<Data>>({
     status: Status.Rejected,
-    value: new Error("error loading data")
+    value: new Error("Missing LoadData component. Are you trying to 'useData' without an ancestor '<LoadData />'?")
   });
 
   function useData() {
