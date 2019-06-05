@@ -2,10 +2,9 @@
   "name": "@jomaxx/create-loader",
   "version": "0.1.1",
   "description": "Data Fetching for React Suspense",
-  "main": "index.js",
+  "main": "lib/createLoader.js",
   "license": "MIT",
   "files": [
-    "index.js",
     "lib"
   ],
   "scripts": {
